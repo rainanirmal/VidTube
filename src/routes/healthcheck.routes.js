@@ -5,4 +5,4 @@ const router = Router()
 
 router.route("/").get(healthcheck)
 
-export { router }
+export default router
