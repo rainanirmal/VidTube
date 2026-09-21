@@ -1,11 +1,3 @@
-// _id string pk
-//   name string
-//   description string
-//   video ObjectId[] videos
-//   owner ObjectId users
-//   createdAt Date
-//   updatedAt Date
-
 import mongoose, { mongo, Schema } from "mongoose";
 
 const playlistSchema = new Schema(
